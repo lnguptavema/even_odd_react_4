@@ -6,7 +6,6 @@ import './index.css'
 class EvenOddApp extends Component {
   state = {
     counter: 0,
-    ceilNo: Math.ceil(Math.random(0, 100) * 100)
   }
 
   onIncrement = () => {
